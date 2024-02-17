@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier d'achat</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+</head>
+
+<body>
+    <header>
+        <h1>bienvenu sur notre site web </h1>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <div class="product">
+                <img src="C:/Users/souhir/Desktop/workshopjs/im1.jpg" alt="image 1">
+                <p class="description">Une robe rouge sans manches de la marque Zara, avec une ceinture noire et confectionnée dans un tissu de haute qualité</p>
+                <br><br><br>
+                <p class="price">50,950D <i class="fa-solid fa-heart icon"></i> </p>
+
+
+                <div class="quantity">
+                    <button class="btn moin" id="moin">-</button>
+                    <span class="counter" id="counter">0</span>
+                    <button class="btn plus" id="plus"> + </button>
+                    <i class="fa-solid fa-cart-plus fa-lg"></i>
+                </div>
+                <br>
+                <button class="delete-btn">Supprimer</button>
+
+
+            </div>
+            <div class="product">
+                <img src="C:/Users/souhir/Desktop/workshopjs/im2.jpg" alt="image 2">
+                <p class="description"> Sac à main avec un petit sac en cuir original, de couleur rose clair, de la marque Chanel</p>
+                <br><br><br>
+                <p class="price">79,990D <i class="fa-solid fa-heart icon "></i></p>
+
+
+                <div class="quantity">
+                    <button class="btn moin" id="moin">-</button>
+                    <span class="counter" id="counter">0</span>
+                    <button class="btn plus" id="plus">+</button>
+                    <i class="fa-solid fa-cart-plus fa-lg"></i>
+                </div>
+                <br>
+                <button class="delete-btn">Supprimer</button>
+
+            </div>
+            <div class="product">
+                <img src="C:/Users/souhir/Desktop/workshopjs/im3.jpg" alt="image 3">
+                <p class="description"> Montre pour homme en cuir marron, alliant élégance et praticité pour un style sophistiqué au quotidien</p>
+                <br><br><br>
+                <p class="price">369,990D <i class="fa-solid fa-heart icon"></i></p>
+
+
+                <div class="quantity">
+                    <button class="btn moin" id="moin">-</button>
+                    <span class="counter" id="counter">0</span>
+                    <button class="btn plus" id="plus">+</button>
+                    <i class="fa-solid fa-cart-plus fa-lg"></i>
+                </div>
+                <br>
+                <button class="delete-btn">Supprimer</button>
+            </div>
+
+        </div>
+        <div class="panier">
+            <h2>Panier d'achat</h2>
+            <p>Nombre d'articles robe : <span class="nombre-articles" id="nombre-articles-robe">0</span> <span class="prix-total" id="prix-total-robe">0,000TND</span> </p>
+            <p>Nombre d'articles sac : <span class="nombre-articles" id="nombre-articles-sac">0</span> <span class="prix-total" id="prix-total-sac">0,000TND</span> </p>
+            <p>Nombre d'articles Montre : <span class="nombre-articles" id="nombre-articles-montre">0</span> <span class="prix-total" id="prix-total-montre">0,000TND</span> </p>
+            <p>Somme en TND: <span id="somme-TND">0,000TDN</span> </p>
+            <button id="commander-btn">Commander</button>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <!-- Ajouter le pied de page ici -->
+    </footer>
+    <script src="test.js"></script>
+</body>
+
+</html>
